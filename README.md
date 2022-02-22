@@ -25,6 +25,11 @@ Export Instagram Posts into WordPress Posts
 Install the IG2WP python application from source. You may pip install directly from Github as shown below.
 
 ```
+pip install ig2wp 
+```
+
+For developmental versions, use the following:
+```
 pip install git+https://github.com/aderbique/ig2wp.git
 ```
 

@@ -37,7 +37,7 @@ setup(
     author='Austin Derbique',
     author_email='austin@derbique.us',
     description='Upload posts from Instagram to Wordpress using Instaloader Tool',
-    long_description=open(os.path.join(SRC, 'README.rst')).read(),
+    long_description=open(os.path.join(SRC, 'README.md')).read(),
     install_requires=requirements,
     python_requires='>=3.6',
     entry_points={'console_scripts': ['ig2wp=ig2wp.__main__:main']},
